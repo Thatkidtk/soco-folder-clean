@@ -1,0 +1,18 @@
+[input]
+# Change this to the folder you want cleaned
+source = "/Users/tech/Desktop/SOCOM-INBOX"
+
+[output]
+# Where cleaned files and reports will be written
+destination = "/Users/tech/Desktop/SOCOM-Clean"
+
+[options]
+dry_run = true
+archive_old = true
+verbose = true
+clinic_safe = true
+assume_yes = false
+include_hidden = false
+follow_symlinks = false
+# Optional: direct backups elsewhere (defaults next to your input folder)
+# backup_root = "/Users/tech/Desktop/SOCOM-Backups"
